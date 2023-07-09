@@ -1,5 +1,5 @@
 import { defaultAbiCoder } from '@ethersproject/abi'
-import { abi as PAIR_V2_ABI } from '@thinkincoin-libs/uniswap-v2-core/build/UniswapV2Pair.json'
+import { abi as PAIR_V2_ABI } from '@uniswap/v2-core/build/UniswapV2Pair.json'
 import { Fixture } from 'ethereum-waffle'
 import { BigNumber, constants, Contract, ContractTransaction, Wallet } from 'ethers'
 import { solidityPack } from 'ethers/lib/utils'
