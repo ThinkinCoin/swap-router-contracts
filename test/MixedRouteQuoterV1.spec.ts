@@ -16,7 +16,7 @@ import {
 } from './shared/quoter'
 import snapshotGasCost from './shared/snapshotGasCost'
 
-import { abi as PAIR_V2_ABI } from '@uniswap/v2-core/build/UniswapV2Pair.json'
+import { abi as PAIR_V2_ABI } from '@thinkincoin-libs/uniswap-v2-core/build/UniswapV2Pair.json'
 
 const V3_MAX_FEE = 999999 // = 1_000_000 - 1 since must be < 1_000_000
 
