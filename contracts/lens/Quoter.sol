@@ -2,14 +2,14 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@thinkincoin-libs/uniswap-v3-periphery/contracts/base/PeripheryImmutableState.sol';
-import '@thinkincoin-libs/uniswap-v3-core/contracts/libraries/SafeCast.sol';
-import '@thinkincoin-libs/uniswap-v3-core/contracts/libraries/TickMath.sol';
-import '@thinkincoin-libs/uniswap-v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import '@thinkincoin-libs/uniswap-v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol';
-import '@thinkincoin-libs/uniswap-v3-periphery/contracts/libraries/Path.sol';
-import '@thinkincoin-libs/uniswap-v3-periphery/contracts/libraries/PoolAddress.sol';
-import '@thinkincoin-libs/uniswap-v3-periphery/contracts/libraries/CallbackValidation.sol';
+import '@uniswap/v3-periphery/contracts/base/PeripheryImmutableState.sol';
+import '@uniswap/v3-core/contracts/libraries/SafeCast.sol';
+import '@uniswap/v3-core/contracts/libraries/TickMath.sol';
+import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol';
+import '@uniswap/v3-periphery/contracts/libraries/Path.sol';
+import '@uniswap/v3-periphery/contracts/libraries/PoolAddress.sol';
+import '@uniswap/v3-periphery/contracts/libraries/CallbackValidation.sol';
 
 import '../interfaces/IQuoter.sol';
 
