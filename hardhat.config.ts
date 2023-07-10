@@ -51,6 +51,9 @@ export default {
     optimism: {
       url: `https://mainnet.optimism.io`,
     },
+    harmony: {
+      url: `https://api.harmony.one`,
+    },
   },
   etherscan: {
     // Your API key for Etherscan
