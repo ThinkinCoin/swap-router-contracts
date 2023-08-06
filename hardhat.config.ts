@@ -9,10 +9,10 @@ const DEFAULT_COMPILER_SETTINGS = {
   version: '0.7.6',
   settings: {
     evmVersion: 'istanbul',
-    optimizer: {
+    /*optimizer: {
       enabled: false,
       runs: 200,
-    },
+    }, */
     metadata: {
       bytecodeHash: 'none',
     },
