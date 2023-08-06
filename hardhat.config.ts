@@ -56,10 +56,10 @@ export default {
     },
   },
   etherscan: {
-    harmony: {
-    apiKey: 'your API key'
+    apiKey: {
+        harmony: 'your API key'
     }
-    },
+  },
   /*etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
