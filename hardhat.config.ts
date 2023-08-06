@@ -10,7 +10,7 @@ const DEFAULT_COMPILER_SETTINGS = {
   settings: {
     evmVersion: 'istanbul',
     optimizer: {
-      enabled: false,
+      enabled: true,
       runs: 200,
     },
     metadata: {
