@@ -35,6 +35,7 @@ export default {
     },
     goerli: {
       url: `https://rpc.goerli.eth.gateway.fm`,
+      accounts: [ process.env.MAINNET_DEPLOYER_KEY],
     },
     kovan: {
       url: `https://kovan.infura.io/v3/${process.env.INFURA_API_KEY}`,
