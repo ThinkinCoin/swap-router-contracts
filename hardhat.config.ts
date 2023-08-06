@@ -6,7 +6,7 @@ import 'hardhat-watcher'
 import 'dotenv/config'
 
 const DEFAULT_COMPILER_SETTINGS = {
-  version: '0.8.0',
+  version: '0.7.6',
   settings: {
     evmVersion: 'istanbul',
     optimizer: {
