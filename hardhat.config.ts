@@ -1,4 +1,5 @@
 import "@nomicfoundation/hardhat-ethers"
+import "@nomiclabs/hardhat-ethers"
 import "@nomicfoundation/hardhat-verify"
 import '@nomiclabs/hardhat-waffle'
 import 'hardhat-typechain'
