@@ -54,7 +54,9 @@ export default {
     harmony: {
       url: `https://api.harmony.one`,
       chainId: 1666600000,
-      accounts: process.env.MAINNET_DEPLOYER_KEY,
+      accounts: {
+        mnemonic: process.env.MAINNET_DEPLOYER_KEY,
+      },
     },
   },
   etherscan: {
