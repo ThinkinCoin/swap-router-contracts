@@ -1,5 +1,5 @@
 import '@nomiclabs/hardhat-ethers'
-import '@nomiclabs/hardhat-etherscan'
+import '@nomiclabs/hardhat-verify'
 import '@nomiclabs/hardhat-waffle'
 import 'hardhat-typechain'
 import 'hardhat-watcher'
