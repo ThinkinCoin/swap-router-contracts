@@ -22,7 +22,7 @@ const DEFAULT_COMPILER_SETTINGS = {
 export default {
   networks: {
     hardhat: {
-      allowUnlimitedContractSize: true,
+      allowUnlimitedContractSize: false,
     },
     mainnet: {
       url: `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
@@ -57,16 +57,16 @@ export default {
       accounts: [ process.env.MAINNET_DEPLOYER_KEY],
     },
   },
-  etherscan: {
+  /*etherscan: {
     apiKey: {
         harmony: 'your API key'
     }
-  },
-  /*etherscan: {
+  },*/
+  etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
     apiKey: process.env.ETHERSCAN_API_KEY,
-  }, */
+  },
   solidity: {
     compilers: [DEFAULT_COMPILER_SETTINGS],
   },
